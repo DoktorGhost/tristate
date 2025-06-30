@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package name1.name2.name3.name55;
+
+option go_package = "github.com/DoktorGhost/tristate/src/go/pkg/grpc/cmm2/v1;pkgname_name_name_v1";
+
+message Unnamed {
+  string UnnamedField = 1;
+}

@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package pkgname;
+
+import "service_all/v1/data_service.proto";
+import "service_all/v1/data2_service.proto";
+import "google/protobuf/empty.proto";
+
+option go_package = "github.com/DoktorGhost/tristate/src/go/pkg/grpc/pkgname/v1;pkgname_v1";
+
+service Service1 {
+  rpc GetHello1(name1.name2.name3.name44.MessageData) returns (name1.name2.name3.name55.Unnamed);
+}
+
+service Service2 {
+  rpc GetHello2(name1.name2.name3.name55.Unnamed) returns (name1.name2.name3.name44.MessageData);
+}
+
+
