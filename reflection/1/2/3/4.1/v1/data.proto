@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package internal.common.v1.selection.data;
+
+option go_package = "example/gen/data";
+
+message Data {
+  string field_1 = 1;
+  string field_2 = 2;
+}
