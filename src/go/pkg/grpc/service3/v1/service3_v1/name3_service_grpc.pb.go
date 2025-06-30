@@ -8,8 +8,8 @@ package pkgname_v1
 
 import (
 	context "context"
-	v1 "github.com/DoktorGhost/tristate/src/go/pkg/grpc/cmm/v1"
-	v11 "github.com/DoktorGhost/tristate/src/go/pkg/grpc/cmm2/v1"
+	v1 "github.com/DoktorGhost/tristate/pkg/grpc/cmm/v1"
+	v11 "github.com/DoktorGhost/tristate/pkg/grpc/cmm2/v1"
 	grpc "google.golang.org/grpc"
 	codes "google.golang.org/grpc/codes"
 	status "google.golang.org/grpc/status"

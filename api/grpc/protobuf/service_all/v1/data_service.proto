@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package name1.name2.name3.name44;
 
-option go_package = "github.com/DoktorGhost/tristate/src/go/pkg/grpc/cmm/v1;pkgname_name_v1";
+option go_package = "github.com/DoktorGhost/tristate/pkg/grpc/cmm/v1;pkgname_name_v1";
 
 import "google/protobuf/timestamp.proto";
 
